@@ -1,0 +1,203 @@
+<html>
+    <head>
+        <title>Tags Aprendidas</title>
+<hr />
+</head> 
+ <body>
+<h1 id="início">
+    Tags para criar um site HTML
+</h1>
+<hr />
+<h2><mark>Aqui você vai encontrar:</mark></h2>
+<ol>
+    <li><a href="#O que" >O que são tags HTML?</a></li>
+    <li><a href="#Atributos" >Atributos</a></li>
+    <li><a href="#Estrutura">Estrutura básica de um documento HTML</a></li>
+    <li><a href="#títulos">Tags HTML de título</a></li>
+    <li><a href="#texto">Tags HTML de texto</a></li>
+    <li><a href="#link">Tag de link HTML</a></li>
+    <li><a href="#listas">Tags HTML de listas</a></li>
+    <li><a href="#input">A tag input</a></li>
+    <li><a href="#estilos">Tags de estilos e scripts</a></li>
+    <li><a href="#Referências">Referências</a></li>    
+</ol>
+<h2 id="O que">
+    <mark>O que são tags HTML?</mark></h2>
+    <small><a href="#início">(Voltar)</a></small>
+<p>
+    As tags são usadas para informar ao navegador a estrutura do site. Ou seja: 
+Quando se escreve um código em HTML, as tags são interpretadas pelo navegador ,
+produzindo assim a estrutura e o contéudo visual da página.
+
+<p>A principal característica das tags é estarem sempre dentro dos sinais de chevron 
+(sinal de “maior que” e “menor que”),ou seja: < >.
+
+<p>As tags HTML são divididas em dois tipos: as que precisam de fechamento e as que 
+não precisam de fechamento. As tags que precisam de fechamento possuem a sintaxe <tag> </tag>,
+já as que não precisam de fechamento possuem como estrutura <tag/>.
+
+</p>
+<h2 id="Atributos">
+   <mark> Atributos</mark>
+</h2>
+<small><a href="#início">(Voltar)</a></small>
+<p>
+    Os atributos são usados para personalizar as tags, modificando sua estrutura ou funcionalidade.
+     Igualmente, os atributos são utilizados para atribuir uma classe ou id a um elemento.
+
+    A maioria das tags tem seus próprios atributos. Contudo, existem alguns atributos genéricos que 
+podem ser utilizados na maioria das tags HTML, vamos conhecê-los:
+</p>
+<p>
+<ul>class=”…“  Atribui uma classe ao elemento (uma classe pode ser utilizada para um ou mais elementos);</ul>
+<ul>id=”…“  Atribui um id ao elemento (um id deve ser único, ou seja atribuído a um único elemento);</ul>
+<ul>style=”…”  Permite incluir elementos CSS (estilos) dentro da tag;</ul>
+<ul>lang=”…”  Define o idioma principal do elemento;</ul>
+<ul>title=”…”  Define o título do elemento;</ul>
+<ul>alt=”…”  Define um texto alternativo e, por isso, é muito utilizado em imagens, auxilia nas práticas de SEO;</ul>
+<ul>hidden  Oculta o elemento;</ul>
+<ul>align=”…”  Permite definir o padrão de alinhamento desse elemento, como por exemplo: right, center, left e justify;</ul>
+<ul>width=”…”  Define uma largura para o elemento;</ul>
+<ul>height=”…”  Define uma altura para o elemento.</ul>
+</p>
+<h2 id="Estrutura"><mark>Estrutura básica de um documento HTML</mark></h2>
+<small><a href="#início">(Voltar)</a></small>
+<p>
+    Um documento HTML recebe algumas tags que formam a sua estrutura básica. No HTML,segue as tags de estrutura e 
+    como cada uma funciona:
+    </p>
+    <ul><!DOCTYPE html> – A tag !DOCTYPE informa ao navegador a versão do HTML que está sendo utilizada no documento. 
+        Por exemplo: no HTML5, basta incluir !DOCTYPE html, e assim o navegador já saberá que se trata de um documento na versão HTML5;</ul>
+    <ul> html  – Esta tag é o elemento básico da estrutura do HTML. Assim sendo, ela conterá todos os elementos do seu documento. 
+        Todo documento HTML deve iniciar e finalizar com essa tag;</ul>
+    <ul> head – Essa tag delimita o cabeçalho do documento. Não possui nenhum valor visível, porém é capaz de transmitir 
+        ao navegador diversas informações muito úteis e essenciais a uma boa apresentação do seu documento HTML;</ul>
+    <ul> title – Essa tag define o título da sua página, o nome que aparecerá na sua aba, janela ou guia. 
+        Por esta razão, a tag >title> é de grande importância para o SEO;</ul>
+    <ul> meta – Essa tag permite inserir metadados ao seu documento, no caso acima, a informação charset=”UTF-8″, 
+        que garante a compatibilidade do código com os caracteres de padrão latino americano;</ul>
+    <ul> body – Finalmente, a tag que representa o corpo do documento. Em síntese, é nessa tag que todos 
+        os elementos visíveis do seu site devem ser inseridos.</ul>
+
+    <h2 id="títulos">
+        <mark>Tags HTML de título</mark>
+    </h2>
+    <small><a href="#início">(Voltar)</a></small>
+    <p>
+        As tags de título possuem valor semântico, variando entre seis níveis hierárquicos. Para fins de otimização SEO é importante 
+        entender como funcionam, e fazer uma utilização adequada. Para definir títulos, utilizamos as tags:
+    </p>
+    
+        h1- Título de maior valor hierárquico
+        h2
+        h3
+        h4
+        h5
+        h6- Título de menor valor hierárquico
+    
+    <p>
+        Portanto, é importante dividir os títulos deixando o h1 apenas para o título principal, h2 ou h3 para títulos 
+        das seções e h4 a h6 para subtítulos ou títulos que possuam baixo valor hierárquico em relação aos demais.
+    </p>
+    <h2 id="texto">
+        <mark>Tags HTML de texto</mark>
+    </h2>
+    <small><a href="#início">(Voltar)</a></small>
+<p>
+    As tags de texto definem textos, estilos de fonte, parágrafos, spans, quebras de linhas, etc. Vamos conhecê-las:
+
+<p>
+       <ul>   – Principal tag de texto, compõe um parágrafo;</ul>
+       <ul>   – Apesar de ter uma funcionalidade e características parecidas com os parágrafos, costumam ser 
+                utilizadas apenas para pequenas informações, como legendas de um formulário, legendas 
+                de uma imagem, etc. Também pode ser utilizada para formar um container;</ul>
+  <ul><pre></pre> – Tag utilizada para representar texto pré-formatado. Muito utilizada para inserir códigos;</ul>
+      <ul><b></b> – Transforma o conteúdo em negrito;</ul>
+      <ul><i></i> – Transforma o conteúdo em itálico;</ul>
+    <ul>   <br/>  – Essa tag não necessita de fechamento, ela executa a função de quebra de linha.</ul>
+         <ul>     – Essa tag não necessita de fechamento, ela forma uma linha horizontal.</ul>
+</p>
+<h2 id="link">
+    <mark>Tag de link HTML</mark>
+</h2>
+<small><a href="#início">(Voltar)</a></small>
+<p>
+    A tag de link HTML é responsável que faz a ligação entre um documento e outro, sendo ele da mesma página ou de uma página de outro domínio. 
+    Esse elemento garantiu que o HTML se destacasse, e moldou a internet da forma que ela é hoje! Portanto, é o principal fundamento que forma a web.
+
+Para realizar um link, podemos chamar as tags <a></a> com o atributo href. Por exemplo, caso você queira criar um link no seu texto que redirecione 
+à página inicial do google:
+
+<p>Para acessar o Google, <a href="https://www.google.com">clique aqui.</a></p>
+Como resultado, teremos:
+
+Para acessar o Google, clique aqui.
+</p>
+<h2 id="listas">
+    <mark>Tags HTML de listas</mark>
+</h2>
+<small><a href="#início">(Voltar)</a></small>
+<p>
+    Para poder criar uma lista, podemos utilizar uma lista ordenada, a partir das tags <ol></ol>, ou uma lista não ordenada, a partir das tags <ul></ul>. 
+    Posteriormente, 
+    incluímos dentro da lista os elementos da mesma, dentro das tags <li></li>.
+
+    Vejamos os exemplos a seguir:
+    
+    <p>Minha lista ordenada:</p>
+    <ol>
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+    </ol>
+    <p>Minha lista não ordenada:</p>
+    <ul>
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+    </ul>
+</p>
+<h2 id="input">
+    <mark>A tag input</mark>
+</h2>
+<small><a href="#início">(Voltar)</a></small>
+<p>
+    A tag input possui o atributo type, que varia entre diversos tipos (vamos explicar os principais deles abaixo). Também há o atributo placeholder, 
+    que é um texto que ficará disponível enquanto nada for digitado nesse campo. Também é importante definir um atributo name para cada input.
+
+<ul>input type=”text”> – Define um campo que receberá qualquer caractere;</ul>
+<ul> type=”email”> – Define um campo que receberá caracteres e verificará se o mesmo consiste em um e-mail válido;</ul>
+<ul>input type=”submit” value=”ENVIAR”> – Define um botão que servirá para o envio do formulário. Dentro dele, podemos atribuir o value, que será o texto dentro do botão de envio.</ul>
+</p>
+<h2 id="estilos">
+    <mark>Tags de estilos e scripts</mark>
+</h2>
+<small><a href="#início">(Voltar)</a></small>
+<p>
+    Para podermos concluir esse tutorial, não poderíamos deixar de citar as tags style e script.
+
+       <p> A tag style e style deve ser incluída no head do seu código HTML. Dentro dessa tag, é possível incluir todo o seu código CSS, ou seja, seu código de estilos.
+        
+        Já a tag script e script tem como objetivo incluir códigos de scripts ao seu HTML, podendo ser incluída em qualquer parte. Contudo, recomenda-se fortemente que 
+        seja inserida após o footer. Dessa forma, podemos incluir nela um código javascript.</p>
+</p>
+
+<hr>
+<h2 id="Referências">
+    <mark>Referências</mark>
+</h2>
+<p>https://www.homehost.com.br/blog/tutoriais/tags-html/</p>
+<small><a href="#início">(Voltar)</a></small>
+
+<hr>
+
+
+    
+  
+
+
+
+
+ </body>
+
+</html>
